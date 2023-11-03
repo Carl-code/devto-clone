@@ -1,3 +1,31 @@
-.size {
-    height: 180px;
+
+input {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+    content: '';
+    left: 470px;
+    top: 20px;
+}
+
+.strong {
+    font-weight: 600 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .p-absolute {
+        position: absolute;
+        content: '';
+        left: 460px;
+        top: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .p-absolute {
+        left: 550px;
+        top: 20px;
+    }
 }
