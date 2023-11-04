@@ -6,9 +6,9 @@
     <title>DEV.to Clone</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
-      data-rh="true"
       rel="icon"
-      href="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+      type="image/x-icon"
+      href="https://res.cloudinary.com/practicaldev/image/fetch/s--E8ak4Hr1--/c_limit,f_auto,fl_progressive,q_auto,w_32/https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -17,8 +17,10 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-warning">
-    <nav class="bg-body-tertiary navbar navbar-expand-md navbar-expand-lg">
+  <body>
+    <nav
+      class="bg-body-tertiary navbar navbar-expand-md navbar-expand-lg fixed-top"
+    >
       <div class="container">
         <div class="btn__container d-flex">
           <button
@@ -48,19 +50,566 @@
               placeholder="Search..."
               aria-label="Search"
             />
-            <img src="img/lupa.svg" class="me-3 p-absolute" alt="">
+            <img src="img/lupa.svg" class="me-3 p-absolute" alt="" />
           </form>
         </div>
-        <button class="ms-3 d-none d-md-block btn btn-outline-primary px-4 me-2 px-md-1 strong" type="submit">
+        <button
+          class="ms-3 d-none d-md-block btn btn-outline-primary px-4 me-2 px-md-1 strong"
+          type="submit"
+        >
           Create a Post
         </button>
         <div class="images-container d-flex">
-          <img src="img/lupa.svg" class="me-3 d-md-none" alt="">
-          <img src="img/campana.svg" class="me-3" alt="">
-          <img src="img/icon-people.jpg" class="rounded-circle me-3" style="width: 40px; height: 40px;" alt="">
+          <img src="img/lupa.svg" class="me-3 d-md-none" alt="" />
+          <img src="img/campana.svg" class="me-3" alt="" />
+          <img
+            src="img/icon-people.jpg"
+            class="rounded-circle me-3"
+            style="width: 40px; height: 40px"
+            alt=""
+          />
         </div>
       </div>
     </nav>
+
+    <section class="container">
+      <div class="row">
+        <aside class="col-md-3 col-lg-3 bg-warning">
+          <h1>Hello</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam, architecto nulla ex inventore in quia numquam, dolorum
+            esse consequuntur vitae eius corrupti cum quae itaque alias animi
+            voluptas repellat! Veniam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam, architecto nulla ex inventore in quia numquam, dolorum
+            esse consequuntur vitae eius corrupti cum quae itaque alias animi
+            voluptas repellat! Veniam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam, architecto nulla ex inventore in quia numquam, dolorum
+            esse consequuntur vitae eius corrupti cum quae itaque alias animi
+            voluptas repellat! Veniam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam, architecto nulla ex inventore in quia numquam, dolorum
+            esse consequuntur vitae eius corrupti cum quae itaque alias animi
+            voluptas repellat! Veniam?
+          </p>
+        </aside>
+        <main class="col-12 col-md-9 col-lg-6">
+          <div class="card">
+            <ul>
+              <a href="http://" class="me-3">Relevant</a>
+              <a href="http://" class="me-3">Latest</a>
+              <a href="http://" class="me-3">Top</a>
+            </ul>
+            <img src="img/img1.jpg" class="card-img-top" alt="..." />
+            <div class="image-avatar__container d-flex">
+              <div class="user-avatar">
+                <img
+                  src="img/icon-people2.jpg"
+                  class="rounded-circle ms-3 mt-3"
+                  style="width: 32px; height: 32px"
+                  alt=""
+                />
+              </div>
+              <div class="user-name mt-3 ms-2">
+                <span class="d-block">Shreya</span>
+                <span class="mb-5">Nov 2 (1 day ago)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="crayons-story__title">
+                <a
+                  href="/shreya_gr/top-5-open-source-insomnia-alternatives-that-you-must-try-in-2024-37lm"
+                  id="article-link-1653468"
+                  class="text-decoration-none text-secondary-emphasis"
+                  ><span
+                    >💪💪 Top 5 Open-Source Insomnia alternatives that you must
+                    try in 2024 🔥</span
+                  ></a
+                >
+              </h3>
+              <ul class="d-flex list-unstyled hastag-text">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#webdev</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#javascript</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#beginner</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#opensource</a
+                  >
+                </li>
+              </ul>
+              <div class="icons-reactions d-flex">
+                <div class="reactions-container d-flex">
+                  <span
+                    ><img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span class="d-none d-md-block ms-2 mt-1">38 Reactions</span>
+                </div>
+                <div class="comments-container ms-auto mt-1 d-flex">
+                  <img src="img/icon-comments.svg" alt="" />
+                  <span class="d-none d-md-block">12 Comments</span>
+                </div>
+                <div class="bookmarks-container ms-auto mt-1 d-flex">
+                  <small>9 min read</small>
+                  <img src="img/bookmarks.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="image-avatar__container d-flex">
+              <div class="user-avatar">
+                <img
+                  src="img/icon-people2.jpg"
+                  class="rounded-circle ms-3 mt-3"
+                  style="width: 32px; height: 32px"
+                  alt=""
+                />
+              </div>
+              <div class="user-name mt-3 ms-2">
+                <span class="d-block">Shreya</span>
+                <span class="mb-5">Nov 2 (1 day ago)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="crayons-story__title">
+                <a
+                  href="/shreya_gr/top-5-open-source-insomnia-alternatives-that-you-must-try-in-2024-37lm"
+                  id="article-link-1653468"
+                  class="text-decoration-none text-secondary-emphasis"
+                  ><span>How to Win Any Hackathon 🚀🤑</span></a
+                >
+              </h3>
+              <ul class="d-flex list-unstyled hastag-text">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#docker</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#hackathon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#programming</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#webdev</a
+                  >
+                </li>
+              </ul>
+              <div class="icons-reactions d-flex">
+                <div class="reactions-container d-flex">
+                  <span
+                    ><img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span class="d-none d-md-block ms-2 mt-1">38 Reactions</span>
+                </div>
+                <div class="comments-container ms-auto mt-1 d-flex">
+                  <img src="img/icon-comments.svg" alt="" />
+                  <span class="d-none d-md-block">12 Comments</span>
+                </div>
+                <div class="bookmarks-container ms-auto mt-1 d-flex">
+                  <small>9 min read</small>
+                  <img src="img/bookmarks.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="image-avatar__container d-flex">
+              <div class="user-avatar">
+                <img
+                  src="img/icon-people2.jpg"
+                  class="rounded-circle ms-3 mt-3"
+                  style="width: 32px; height: 32px"
+                  alt=""
+                />
+              </div>
+              <div class="user-name mt-3 ms-2">
+                <span class="d-block">Shreya</span>
+                <span class="mb-5">Nov 2 (1 day ago)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="crayons-story__title">
+                <a
+                  href="/shreya_gr/top-5-open-source-insomnia-alternatives-that-you-must-try-in-2024-37lm"
+                  id="article-link-1653468"
+                  class="text-decoration-none text-secondary-emphasis"
+                  ><span>How to Win Any Hackathon 🚀🤑</span></a
+                >
+              </h3>
+              <ul class="d-flex list-unstyled hastag-text">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#docker</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#hackathon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#programming</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#webdev</a
+                  >
+                </li>
+              </ul>
+              <div class="icons-reactions d-flex">
+                <div class="reactions-container d-flex">
+                  <span
+                    ><img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span class="d-none d-md-block ms-2 mt-1">38 Reactions</span>
+                </div>
+                <div class="comments-container ms-auto mt-1 d-flex">
+                  <img src="img/icon-comments.svg" alt="" />
+                  <span class="d-none d-md-block">12 Comments</span>
+                </div>
+                <div class="bookmarks-container ms-auto mt-1 d-flex">
+                  <small>9 min read</small>
+                  <img src="img/bookmarks.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="image-avatar__container d-flex">
+              <div class="user-avatar">
+                <img
+                  src="img/icon-people2.jpg"
+                  class="rounded-circle ms-3 mt-3"
+                  style="width: 32px; height: 32px"
+                  alt=""
+                />
+              </div>
+              <div class="user-name mt-3 ms-2">
+                <span class="d-block">Shreya</span>
+                <span class="mb-5">Nov 2 (1 day ago)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="crayons-story__title">
+                <a
+                  href="/shreya_gr/top-5-open-source-insomnia-alternatives-that-you-must-try-in-2024-37lm"
+                  id="article-link-1653468"
+                  class="text-decoration-none text-secondary-emphasis"
+                  ><span>How to Win Any Hackathon 🚀🤑</span></a
+                >
+              </h3>
+              <ul class="d-flex list-unstyled hastag-text">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#docker</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#hackathon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#programming</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#webdev</a
+                  >
+                </li>
+              </ul>
+              <div class="icons-reactions d-flex">
+                <div class="reactions-container d-flex">
+                  <span
+                    ><img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span class="d-none d-md-block ms-2 mt-1">38 Reactions</span>
+                </div>
+                <div class="comments-container ms-auto mt-1 d-flex">
+                  <img src="img/icon-comments.svg" alt="" />
+                  <span class="d-none d-md-block">12 Comments</span>
+                </div>
+                <div class="bookmarks-container ms-auto mt-1 d-flex">
+                  <small>9 min read</small>
+                  <img src="img/bookmarks.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="image-avatar__container d-flex">
+              <div class="user-avatar">
+                <img
+                  src="img/icon-people2.jpg"
+                  class="rounded-circle ms-3 mt-3"
+                  style="width: 32px; height: 32px"
+                  alt=""
+                />
+              </div>
+              <div class="user-name mt-3 ms-2">
+                <span class="d-block">Shreya</span>
+                <span class="mb-5">Nov 2 (1 day ago)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="crayons-story__title">
+                <a
+                  href="/shreya_gr/top-5-open-source-insomnia-alternatives-that-you-must-try-in-2024-37lm"
+                  id="article-link-1653468"
+                  class="text-decoration-none text-secondary-emphasis"
+                  ><span>How to Win Any Hackathon 🚀🤑</span></a
+                >
+              </h3>
+              <ul class="d-flex list-unstyled hastag-text">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#docker</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#hackathon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#programming</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none me-2 text-secondary-emphasis"
+                    >#webdev</a
+                  >
+                </li>
+              </ul>
+              <div class="icons-reactions d-flex">
+                <div class="reactions-container d-flex">
+                  <span
+                    ><img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span
+                    ><img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18px"
+                      height="18px"
+                  /></span>
+                  <span class="d-none d-md-block ms-2 mt-1">38 Reactions</span>
+                </div>
+                <div class="comments-container ms-auto mt-1 d-flex">
+                  <img src="img/icon-comments.svg" alt="" />
+                  <span class="d-none d-md-block">12 Comments</span>
+                </div>
+                <div class="bookmarks-container ms-auto mt-1 d-flex">
+                  <small>9 min read</small>
+                  <img src="img/bookmarks.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside class="d-none d-md-none d-lg-block col-lg-3 bg-success"></aside>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
