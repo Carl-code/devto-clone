@@ -50,6 +50,19 @@ input {
 aside {
     margin-top: 4rem !important;
 }
+
+footer {
+  > p {
+    font-size: 14px;
+  }
+}
+.networks-container, .tags-container{
+  >a:hover{
+    fill: rgb( 47, 58, 178 );
+    transition: .3s ease;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .p-absolute {
     position: absolute;
