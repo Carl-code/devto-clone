@@ -47,10 +47,6 @@ input {
   }
 }
 
-aside {
-    margin-top: 4rem !important;
-}
-
 footer {
   > p {
     font-size: 14px;
@@ -63,6 +59,17 @@ footer {
   }
 }
 
+.ul-container {
+  li{
+    >a {
+      color: black;
+    }
+    >a:hover {
+      color: rgb( 47, 58, 178 );
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
   .p-absolute {
     position: absolute;
@@ -70,6 +77,9 @@ footer {
     left: 460px;
     top: 20px;
   }
+  aside {
+    margin-top: 4rem !important;
+}
 }
 
 @media screen and (min-width: 992px) {

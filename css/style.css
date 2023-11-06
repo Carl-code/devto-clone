@@ -39,10 +39,6 @@ input {
   font-weight: bold;
 }
 
-aside {
-  margin-top: 4rem !important;
-}
-
 footer > p {
   font-size: 14px;
 }
@@ -52,12 +48,22 @@ footer > p {
   transition: 0.3s ease;
 }
 
+.ul-container li > a {
+  color: black;
+}
+.ul-container li > a:hover {
+  color: rgb(47, 58, 178);
+}
+
 @media screen and (min-width: 768px) {
   .p-absolute {
     position: absolute;
     content: "";
     left: 460px;
     top: 20px;
+  }
+  aside {
+    margin-top: 4rem !important;
   }
 }
 @media screen and (min-width: 992px) {
